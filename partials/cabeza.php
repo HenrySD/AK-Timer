@@ -13,9 +13,9 @@
     <meta name="description" content="AK-Timer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
-    
-                            <!--estilo de CSS y CDN'S falta linkearlos-->
+
+
+    <!--estilo de CSS y CDN'S falta linkearlos-->
     <link rel="stylesheet" href="carpetas/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="carpetas/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="carpetas/themify-icons/css/themify-icons.css">
@@ -23,12 +23,14 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
 </head>
+
 <body>
-<aside id="left-panel" class="left-panel">
+    <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
 
             <div class="navbar-header">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="./"><img></a>
@@ -42,21 +44,36 @@
                     </li>
                     <!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Components</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Components</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Buttons</a></li>
                             <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
-                            
+
                         </ul>
                     </li>
                     </li>
                     <li>
                         <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
                     </li>
-                    
+                    <li>
+                        <a href="#"><i class="menu-icon ti-email"></i>Widgets </a>
+                    </li>
 
-                   
-                   
+
+
+		<!--*******************-->
+        <!---->
+        <!--*******************-->
+
+        		<!--*******************-->
+                    <!--holacamkcmakc-->
+                <!--*******************-->
+
+
+                		<!--//////////////////////////////-->
+                            <!---->
+                        <!--//////////////////////////////-->
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -72,25 +89,27 @@
         <header id="header" class="header">
 
             <div class="header-menu">
-                                        <!--boton rojo para hacer mas pequeno el menu-->
+                <!--boton rojo para hacer mas pequeno el menu-->
                 <div class="col-sm-7">
                     <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
                 </div>
 
                 <div class="col-sm-5">
                     <div class="user-area dropdown float-right">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <img class="user-avatar rounded-circle" src="carpetas/img/admin.jpg" alt="User Avatar">
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                            <a class="nav-link" href="#"><i class="fa fa-user"></i> My Profile</a>
+                            <a class="nav-link" href="#"><i class="fa fa-user"></i> Perfil </a>
 
-                            <a class="nav-link" href="#"><i class="fa fa-user"></i> Notifications <span class="count">13</span></a>
+                            <a class="nav-link" href="#"><i class="fa fa-user"></i> Notificaciones <span
+                                    class="count">13</span></a>
 
-                            <a class="nav-link" href="#"><i class="fa fa-cog"></i> Settings</a>
+                            <a class="nav-link" href="#"><i class="fa fa-cog"></i> Configuracion</a>
 
-                            <a class="nav-link" href="#"><i class="fa fa-power-off"></i> Logout</a>
+                            <a class="nav-link" href="#"><i class="fa fa-power-off"></i> Cerrar Cession</a>
                         </div>
                     </div>
                 </div>
@@ -99,6 +118,6 @@
         </header><!-- /header -->
         <!-- Header-->
 
-       
+
 
         <div class="content mt-3">

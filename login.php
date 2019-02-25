@@ -18,6 +18,7 @@
 
 <body>
 
+
     <form action="singup.php" method="post" class="login text-center ">
         <div class="form-group ">
                 <h5>Usuario</h5>

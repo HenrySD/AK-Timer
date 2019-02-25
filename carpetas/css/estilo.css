@@ -53,3 +53,20 @@ button{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.cuerpo-ve{
+margin: 0;
+padding: 0;
+}
+.contenedor-ve{
+
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 17px;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

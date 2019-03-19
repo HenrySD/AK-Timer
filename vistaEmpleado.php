@@ -25,7 +25,7 @@
 </head>
 <body class="cuerpo-ve">
     
-<div class="contenedor-ve">
+<div class="contenedor-ve container">
 
 </div>
 </body>
